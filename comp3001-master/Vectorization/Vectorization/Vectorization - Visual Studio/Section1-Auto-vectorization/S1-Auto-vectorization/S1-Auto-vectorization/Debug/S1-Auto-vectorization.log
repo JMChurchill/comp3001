@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Git\comp3001\comp3001-master\Vectorization\Vectorization\Vectorization - Visual Studio\Section1-Auto-vectorization\S1-Auto-vectorization\S1-Auto-vectorization\array_addition.h(13,1): warning C4005: 'M': macro redefinition
+C:\Git\comp3001\comp3001-master\Vectorization\Vectorization\Vectorization - Visual Studio\Section1-Auto-vectorization\S1-Auto-vectorization\S1-Auto-vectorization\MVM.h(12): message : see previous definition of 'M'
+C:\Git\comp3001\comp3001-master\Vectorization\Vectorization\Vectorization - Visual Studio\Section1-Auto-vectorization\S1-Auto-vectorization\S1-Auto-vectorization\array_addition.h(24,1): warning C4005: 'EPSILON': macro redefinition
+C:\Git\comp3001\comp3001-master\Vectorization\Vectorization\Vectorization - Visual Studio\Section1-Auto-vectorization\S1-Auto-vectorization\S1-Auto-vectorization\MVM.h(23): message : see previous definition of 'EPSILON'
+  S1-Auto-vectorization.vcxproj -> C:\Git\comp3001\comp3001-master\Vectorization\Vectorization\Vectorization - Visual Studio\Section1-Auto-vectorization\S1-Auto-vectorization\Debug\S1-Auto-vectorization.exe

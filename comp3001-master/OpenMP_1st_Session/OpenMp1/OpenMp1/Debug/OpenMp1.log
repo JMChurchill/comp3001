@@ -1,0 +1,12 @@
+﻿  PI.c
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(36,14): warning C4101: 'pi2': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(94,9): warning C4101: 'x': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(128,9): warning C4101: 'x': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(163,9): warning C4101: 'x': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(162,6): warning C4101: 'i': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(200,9): warning C4101: 'x': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(199,6): warning C4101: 'i': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\Visual Studio\PI.c(256,9): warning C4101: 'x': unreferenced local variable
+  reduction_parallel.c
+  Generating Code...
+  OpenMp1.vcxproj -> C:\Git\comp3001\comp3001-master\OpenMP_1st_Session\OpenMp1\Debug\OpenMp1.exe

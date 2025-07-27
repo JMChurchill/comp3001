@@ -1,0 +1,4 @@
+﻿PI_divide_conquer.obj : error LNK2019: unresolved external symbol "double __cdecl kern(int,int)" (?kern@@YANHH@Z) referenced in function "double __cdecl un_opt(void)" (?un_opt@@YANXZ)
+    Hint on symbols that are defined and could potentially match:
+      "double __cdecl kern(int,int,int)" (?kern@@YANHHH@Z)
+C:\Git\comp3001\comp3001-master\OpenMP_3rd_Session\OpenMP 3\Debug\OpenMP 3.exe : fatal error LNK1120: 1 unresolved externals

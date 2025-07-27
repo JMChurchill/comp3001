@@ -42,11 +42,11 @@ int main() {
 	//auto start = std::chrono::high_resolution_clock::now(); //ACCURATE timer provided in C++ only
 
 	for (int i = 0; i < TIMES; i++) {
-		//pi1=un_opt();
+		pi1=un_opt();
 		//pi1 = version1();
 		//pi1=version2();
 		//pi1=version3();
-		pi1 = version6();
+		//pi1 = version6();
 	}
 
 	//auto finish = std::chrono::high_resolution_clock::now(); 
@@ -67,21 +67,22 @@ int main() {
 
 //this is the serial version of the PI program
 double un_opt() {
-
 	int i;
-	double x, pi, sum = 0.0;
+	double pi, sum = 0.0;
 	double step;
-
 	step = 1.0 / (double)num_steps;
 
-	for (i = 0; i < num_steps; i++) {
-		x = (i + 0.5)*step;
-		sum = sum + 4.0 / (1.0 + x * x);
+#pragma omp parallel 
+	{
+		double x;
+#pragma omp parallel for reduction(+:sum)
+		for (i = 0; i < num_steps; i++) {
+			x = (i + 0.5) * step;
+			sum = sum + 4.0 / (1.0 + x * x);
+		}
 	}
 	pi = step * sum;
-
 	return pi;
-
 }
 
 //THIS IS THE 1ST PARALLEL VERSION - THIS IMPLEMENTATION IS NOT THE FASTEST, BECAUSE OF THE FALSE SHARING in sum[] array
@@ -225,7 +226,6 @@ double version4() {
 
 //THIS IS THE 5th PARALLEL VERSION - This version is easier to write. Here lies the power of OpenMP
 double version5() {
-
 	int i;
 	double pi, sum = 0.0;
 	double step;

@@ -1,0 +1,5 @@
+﻿  dot_product_parallel.cpp
+C:\Git\comp3001\comp3001-master\OpenMP_2nd_Session\OpenMP2\OpenMP2\dot_product_parallel.cpp(32,9): warning C4101: 'i': unreferenced local variable
+C:\Git\comp3001\comp3001-master\OpenMP_2nd_Session\OpenMP2\OpenMP2\dot_product_parallel.cpp(208,9): error C3002: 'parallel for simd': multiple OpenMP directive names
+  MVM_serial.cpp
+  Generating Code...
